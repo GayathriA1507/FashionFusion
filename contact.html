@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FashionFusion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <script src="sidenavbar.js"></script>
+    <nav id="navbar">
+        <H1>FashionFusion</H1>
+
+        <div id="navbar-links">
+            <p id="navbar-link"><a href="index.html">Home</a></p>
+            <p id="navbar-link"><a href="collection.html">Collection</a></p>
+            <p id="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+
+        <div id="navbar-menu" onclick="menubar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <!---------side navbar----------->
+    <div id="sidenavbar">
+        <p style="text-align:right;" onclick="closebtn()">
+            <i class="fa-solid fa-x"></i>
+        </p>
+        <div id="side-navbar-links">
+            <p id="navbar-link"><a href="index.html">Home</a></p>
+            <p id="navbar-link"><a href="collection.html">Collection</a></p>
+            <p id="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+    <!------------------------contact--------------->
+    <div id="contact">
+        <form>
+        <div id="contact-container">
+            <div>
+            <h2>NAME</h2>
+            <input type="name" placeholder="Name">
+            </div>
+            <div>
+                <h2>EMAIL</h2>
+                <input type="email" placeholder="abc@xyz.com">
+            </div>
+            <div>
+                <h2>MESSAGE</h2>
+                <textarea placeholder="text"></textarea>
+            </div>
+            <div>
+                <input id="submit" type="button" value="SUBMIT">
+            </div>
+        </div>
+        
+        </form>
+    </div>
+
+    <!-------------------------footer---------------------->
+    <footer id="footer">
+        <div id="footercontent">
+            <h1>FashionFusion</h1>
+            <p>Elevate your style with our curated collection. Shop now for the latest trends and timeless classics.</p>
+        </div>
+        <div id="icon">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-regular fa-envelope"></i>
+    </footer>
+
+    <script src="collection.js"></script>
+</body>
+
+</html>
